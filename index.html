@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Front</title>
+    <link rel="shortcut icon" href="./Week-5-saas-app-assets/favicon for font.png" type="image/x-icon">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/206c038801.js" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+
+   <header>
+    <div class="masthead">
+      <div class="mast-left">
+        <span><i class="fas fa-chevron-left"></i>Main Demo</span>
+      </div>
+
+      <div class="mast-right">
+        <span>Demos<i class="fas fa-chevron-down"></i></span>
+        <span>Docs<i class="fas fa-chevron-down"></i></span>
+      </div>
+    </div>
+
+   
+        <nav id="topNav" class="navbar nav">
+          <div class="main-header">
+            <button class="navbar-toggler"aria-expanded="false" aria-controls="navbarDropdown">
+              <span>&#9776;</span>
+            </button>
+           <a class="navbar-brand" href="index.html"><img src="./Week-5-saas-app-assets/project_logo/logo.svg" alt="Front logo"></a>
+           <ul class="navbar-nav">
+             <li class="nav-link">
+               <a href="#">Home</a>
+              </li>
+             <li class="nav-link">
+               <a href="#">Features</a>
+              </li>
+             <li class="nav-link">
+               <a href="#">Learn</a>
+              </li>
+             <li class="nav-link">
+               <a href="#">Pricing</a>
+              </li>
+             <li class="nav-link">
+               <a href="#">Hire Us</a>
+              </li>
+              <button class="default-btn">
+                Buy Now
+              </button>
+           </ul>
+          </div>
+         </nav>  
+
+         <div class="main-info">
+          <div class="main-header-info">
+            <h1>Empowering <br> teams with the <br> freedom</h1>
+            <span>own the unlimited power of the web <br> development</span>
+            <div>
+              <button class="default-btn play-video-btn">
+                <i class="fas fa-play-circle"></i>Play Video
+              </button>
+              <a href="#">Learn More</a><i class="fas fa-chevron-right"></i>
+            </div>
+          </div>
+          <div class="stupid-dots">
+            <div class="logo-dots-1">
+              <div class="logo-container google">
+                <img src="./Week-5-saas-app-assets/logo_icons/google.png" alt="logo">
+              </div>
+              <div class="logo-container blue-a">
+                <img src="./Week-5-saas-app-assets/logo_icons/atlassian.png" alt="logo">
+              </div>
+              <div class="logo-container asana">
+                <img src="./Week-5-saas-app-assets/logo_icons/asana.png" alt="logo">
+              </div>
+              </div>
+              
+              <div class="logo-dots-2">
+                <div class="logo-container pay-pal">
+                  <img src="./Week-5-saas-app-assets/logo_icons/paypal.jpg" alt="logo">
+                </div>
+                <div class="logo-container weave">
+                  <img src="./Week-5-saas-app-assets/logo_icons/weave.png" alt="logo">
+                </div>
+              </div>
+  
+              <div class="logo-dots-3">
+                <div class="logo-container google-ads">
+                  <img src="./Week-5-saas-app-assets/logo_icons/google-ads.png" alt="logo">
+                </div>
+                <div class="logo-container calendar">
+                  <img src="./Week-5-saas-app-assets/logo_icons/calendar.png" alt="logo">
+                </div>
+              </div>
+            
+          </div>
+         </div>
+   </header>
+    
+    <script src="" async defer>
+      const navButton = document.querySelector('button[aria-expanded]');
+
+function toggleNav({ target }) {
+  const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+  navButton.setAttribute('aria-expanded', !expanded);
+}
+
+navButton.addEventListener('click', toggleNav);
+
+    </script>
+  </body>
+</html>
