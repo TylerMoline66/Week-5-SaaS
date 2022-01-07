@@ -5,6 +5,11 @@
   align-items: center;
   color: var(--font-light);
   padding-right: 330px;
+  margin-bottom: 5px;
+}
+
+.mast-left i {
+ padding-left: 24px;
 }
 
 .fas {
@@ -313,6 +318,10 @@
   margin-top: 300px;
 }
 
+.benefits h2 {
+  font-size: 40px;
+}
+
 .benefits span {
   color: var(--font-light);
 }
@@ -326,7 +335,7 @@
 
 .benefit-card {
   width: 275px;
-  box-shadow: 0px 15px 20px rgb(31 73 125 / 10%);;
+  box-shadow: 0px 15px 20px rgb(31 73 125 / 10%);
   border-radius: 5px;
   padding: var(--size-16);
   transition: ease-in-out .5s;
@@ -395,4 +404,156 @@
   width: 500px;
  }
 
+ /* WHY FRONT SECTION */
 
+.why-front {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.why-info,
+.why-info span {
+  text-align: center;
+}
+
+.why-info h2 {
+  font-size: 40px;
+}
+
+.why-info,
+.why-dots,
+.why-img,
+.hubspot-section,
+.worlds-best {
+  margin: auto;
+}
+
+.why-info span {
+color: var(--font-light);
+margin: auto;
+}
+
+.why-dots {
+  width: 40%;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.why-dots hr {
+  width: 20%;
+  opacity: 50%;
+}
+
+.why-dot-dots {
+  display: flex;
+  align-items: center;
+}
+
+.why-dot {
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #EDF3FF;
+  color: var(--main-blue);
+}
+
+.why-dot i {
+  font-size: 5px;
+  margin: auto;
+}
+
+.why-dot-words {
+  margin: auto;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.why-dot-words:nth-child(2) {
+  margin-left: 50px;
+}
+
+.why-img {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.why-img img{
+ width: 55%;
+ border-radius: 5px;
+}
+
+.fa-play {
+  margin: auto;
+}
+
+.why-play-button {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-color: var(--white);
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 218px;
+  z-index: 5;
+  box-shadow: 1px 2px 20px rgb(31 73 125 / 20%);
+  transition: ease-in .3s;
+}
+
+.why-play-button:hover {
+  transform: scale(1.5);
+  background-color: var(--main-blue);
+}
+
+.hubspot-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.hubspot-img {
+  margin-left: 160px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-left-style: dotted;
+  border-bottom-style: dotted;
+  border-width: 3.5px;
+  border-color: rgb(131, 128, 128);
+}
+
+.hubspot-section .bussiness-woman {
+  width: 400px;
+  margin-right: 80px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  border-left-style: dotted;
+  border-width: 2px;
+  border-color: rgb(131, 128, 128);
+  border-bottom-style: dotted;
+  border-width: 
+}
+
+.hubspot-info span {
+  line-height: 30px;
+}
+
+.hubspot-info img {
+  width: 100px;
+  margin-bottom: 40px;
+}
+
+.hubspot-info h4 {
+  margin-top: 30px;
+  margin-bottom: -1px;
+}
+
+.hubspot-info p {
+  font-size: 10px;
+  color: var(--font-light)
+}
