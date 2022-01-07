@@ -4,12 +4,12 @@
   justify-content: space-between;
   align-items: center;
   color: var(--font-light);
-  padding-right: 330px;
-  margin-bottom: 5px;
+  padding-right: 20.625rem;
+  margin-bottom: 0.3125rem;
 }
 
 .mast-left i {
- padding-left: 24px;
+ padding-left: 1.5rem;
 }
 
 .fas {
@@ -30,13 +30,13 @@
   left: 0;
   z-index: 500;
   transition: ease-in-out .3s;
-  padding: 16px;
+  padding: 1rem;
 }
 
 .main-header {
   width: 100%;
-  padding-left: 5px;
-  padding-right: 330px;
+  padding-left: 0.3125rem;
+  padding-right: 20.625rem;
   display: flex;
 }
 
@@ -52,8 +52,8 @@
 
 .navbar-toggler {
   position: absolute;
-  right: 20px;
-  top: 30px;
+  right: var(--size-20);
+  top: var(--size-30);
   outline: none;
   background-color: transparent;
   border: 1px solid transparent;
@@ -61,7 +61,7 @@
 
 .navbar-toggler span {
     color: #666;
-    font-size: 20px;
+    font-size: var(--size-20);
     cursor: pointer;
     pointer-events: none;
 }
@@ -87,14 +87,14 @@
     color: #666;
 }
 .navbar-brand img {
-  width: 100px;
+  width: var(--size-100);
 }
 
 .nav-link a {
   color: var(--font-light);
   font-size: .8125rem;
-  margin-right: 40px;
-  line-height: 20px;
+  margin-right: var(--size-40);
+  line-height: var(--size-20);
 }
 
 .nav-link a:hover{
@@ -104,23 +104,23 @@
 /* MAIN HEADER */
 
 .main-info {
-  margin-top: 50px;
+  margin-top: 3.125rem;
   display: flex;
   justify-content: space-between;
   z-index: 100;
 }
 .main-header-info {
   margin-left: var(--size-18);
-  margin-right: 40px;
-  min-width: 400px;
+  margin-right: var(--size-40);
+  min-width: 25rem;
 }
 
 .main-header-info h1 {
-  font-size: 52px;
+  font-size: 3.25rem;
 }
 
 .play-video-btn {
-  width: 105px;
+  width: 6.5625rem;
 }
 
 .main-header-info div {
@@ -137,12 +137,12 @@
 }
 
 .main-header-info div .fa-chevron-right {
-  margin-right: 170px;
+  margin-right: 10.625rem;
 }
 
 .stupid-dots {
   width: 800px;
-  margin: 0px 340px 0px 500px;
+  margin: 0rem 21.25rem 0rem 31.25rem;
 }
 .logo-dots-1,
 .logo-dots-2,
@@ -153,22 +153,22 @@
   align-items: flex-start;
 }
 .logo-dots-1 {
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
   width: 100%;
 }
 
 .logo-dots-2 {
-  width: 250px;
-  margin-bottom: 75px;
+  width: 15.625rem;
+  margin-bottom: 4.6875rem;
 }
 
 .logo-dots-3 {
-  width: 300px;
-  margin-bottom: 20px;
+  width: 18.75rem;
+  margin-bottom: var(--size-20);
 }
 
 .google {
-  max-width: 80px;
+  max-width: 5rem;
   position: absolute;
   top: 17%;
   right: 39%;
@@ -176,18 +176,18 @@
 }
 
 .google:hover {
-  transform: translateY(10px);
+  transform: translateY(var(--size-10));
 }
 
 .google img {
-  padding: 12px;
-  max-width: 63px;
-  min-width: 29px;
+  padding: 0.75rem;
+  max-width: 3.9375rem;
+  min-width: 1.8125rem;
   vertical-align: middle;
 }
 
 .blue-a {
-  max-width: 100px;
+  max-width: var(--size-100);
   position: absolute;
   top: 21%;
   right: 29%;
@@ -195,18 +195,18 @@
 }
 
 .blue-a:hover {
-  transform: translateY(15px);
+  transform: translateY(0.9375rem);
 }
 
 .blue-a img {
-  padding: 20px;
-  max-width: 80px;
-  min-width: 29px;
+  padding: var(--size-20);
+  max-width: 5rem;
+  min-width: 1.8125rem;
   vertical-align: middle;
 }
 
 .asana { 
-  max-width: 100px;
+  max-width: var(--size-100);
   position: absolute;
   top: 19%;
   right: 17%;
@@ -214,18 +214,18 @@
 }
 
 .asana:hover {
-  transform: translateX(-10px);
+  transform: translateX(-0.625rem);
 }
 
 .asana img {
-  padding: 20px;
-  max-width: 80px;
-  min-width: 29px;
+  padding: var(--size-20);
+  max-width: 5rem;
+  min-width: 1.8125rem;
   vertical-align: middle;
 }
 
 .pay-pal {
-  max-width: 100px;
+  max-width: var(--size-100);
   position: absolute;
   top: 35%;
   right: 39%;
@@ -233,18 +233,18 @@
 }
 
 .pay-pal:hover {
-  transform: translateX(10px);
+  transform: translateX(var(--size-10));
 }
 
 .pay-pal img {
-  padding: 19px;
-  max-width: 79px;
-  min-width: 29px;
+  padding: 1.1875rem;
+  max-width: 4.9375rem;
+  min-width: 1.8125rem;
   vertical-align: middle;
 }
 
 .weave {  
-  max-width: 100px;
+  max-width: var(--size-100);
   position: absolute;
   top: 35%;
   right: 24%;
@@ -252,13 +252,13 @@
 }
 
 .weave:hover {
-  transform: translateY(10px);
+  transform: translateY(var(--size-10));
 }
 
 .weave img {
-  padding: 20px;
-  max-width: 90px;
-  min-width: 29px;
+  padding: var(--size-20);
+  max-width: 5.625rem;
+  min-width: 1.8125rem;
   vertical-align: middle;
 }
 
@@ -271,18 +271,18 @@
 }
 
 .google-ads:hover {
-  transform: translateX(5px);
+  transform: translateX(0.3125rem);
 }
 
 .google-ads img {
-  padding: 5px;
-  max-width: 65px;
-  min-width: 29px;
+  padding: 0.3125rem;
+  max-width: 4.0625rem;
+  min-width: 1.8125rem;
   vertical-align: middle;
 }
 
 .calendar {
-  max-width: 100px;
+  max-width: var(--size-100);
   position: absolute;
   top: 52%;
   right: 17%;
@@ -290,13 +290,13 @@
 }
 
 .calendar:hover {
-  transform: translateX(-15px);
+  transform: translateX(-0.9375rem);
 }
 
 .calendar img {
-  padding: 20px;
-  max-width: 80px;
-  min-width: 29px;
+  padding: var(--size-20);
+  max-width: 5rem;
+  min-width: 1.8125rem;
   vertical-align: middle;
 }
 
@@ -304,8 +304,8 @@
   flex: 1;
   background-color: var(--white);
   border-radius: 50%;
-  margin-right: 30px;
-  box-shadow: 1px 10px 15px lightgrey;
+  margin-right: 1.875rem;
+  box-shadow: 0.0625rem var(--size-10) 0.9375rem lightgrey;
 }
 
 /* BENEFITS */
@@ -315,11 +315,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 300px;
+  margin-top: 18.75rem;
 }
 
 .benefits h2 {
-  font-size: 40px;
+  font-size: var(--size-40);
 }
 
 .benefits span {
@@ -328,18 +328,18 @@
 
 .benefit-cards {
   width: 65%;
-  margin-top: 60px;
+  margin-top: 3.75rem;
   display: flex;
   justify-content: space-between;
 }
 
 .benefit-card {
-  width: 275px;
-  box-shadow: 0px 15px 20px rgb(31 73 125 / 10%);
-  border-radius: 5px;
+  width: 17.1875rem;
+  box-shadow: 0rem 0.9375rem var(--size-20) rgb(31 73 125 / 10%);
+  border-radius: 0.3125rem;
   padding: var(--size-16);
   transition: ease-in-out .5s;
-  margin: 10px;
+  margin: var(--size-10);
 }
 
 .benefit-card:hover {
@@ -347,7 +347,7 @@
 }
 
 .benefit-card img {
-  width: 70px;
+  width: 4.375rem;
 }
 
 .benefit-card p {
@@ -357,18 +357,18 @@
 .benefit-card a,
 .benefit-card i {
   color: var(--main-blue);
-  margin: 3px;
+  margin: 0.1875rem;
 }
 
 .benefit-card .success {
   background-color: var(--success);
   color: var(--white);
-  border-radius: 20px;
-  padding: 0px 10px;
-  margin-right: 3px;
-  margin-left: 3px;
+  border-radius: var(--size-20);
+  padding: 0rem var(--size-10);
+  margin-right: 0.1875rem;
+  margin-left: 0.1875rem;
   display: inline;
-  font-size: 15px;
+  font-size: 0.8rem;
 }
 
 /* DIFFERENT SECTION */
@@ -378,36 +378,36 @@
    align-items: center;
    background-color: var(--light-background);
    margin: auto;
-   margin-top: 100px;
+   margin-top: var(--size-100);
    width: 65%;
-   height: 400px;
-   border-radius: 10px;
+   height: 25rem;
+   border-radius: var(--size-10);
   }
 
   .get-started {
-    width: 125px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    width: 7.8125rem;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
     padding-right: 0;
   }
 
   .info {
-    margin-left: 60px;
+    margin-left: 3.75rem;
   }
 
   .different-section .different-img {
-    margin-top: 88px;
-    box-shadow: -10px -10px 20px rgb(31 73 125 / 10%);
+    margin-top: 5.5rem;
+    box-shadow: -0.625rem -0.625rem var(--size-20) rgb(31 73 125 / 10%);
   }
 
  .different-section img {
-  width: 500px;
+  width: 31.25rem;
  }
 
  /* WHY FRONT SECTION */
 
 .why-front {
-  margin-top: 150px;
+  margin-top: var(--size-150);
   display: flex;
   flex-direction: column;
 }
@@ -418,7 +418,7 @@
 }
 
 .why-info h2 {
-  font-size: 40px;
+  font-size: var(--size-40);
 }
 
 .why-info,
@@ -436,8 +436,8 @@ margin: auto;
 
 .why-dots {
   width: 40%;
-  margin-top: 80px;
-  margin-bottom: 30px;
+  margin-top: 5rem;
+  margin-bottom: var(--size-30);
 }
 
 .why-dots hr {
@@ -453,15 +453,15 @@ margin: auto;
 .why-dot {
   display: flex;
   align-items: center;
-  width: 30px;
-  height: 30px;
+  width: var(--size-30);
+  height: var(--size-30);
   border-radius: 50%;
   background-color: #EDF3FF;
   color: var(--main-blue);
 }
 
 .why-dot i {
-  font-size: 5px;
+  font-size: 0.3125rem;
   margin: auto;
 }
 
@@ -473,14 +473,14 @@ margin: auto;
 }
 
 .why-dot-words:nth-child(2) {
-  margin-left: 50px;
+  margin-left: var(--size-50);
 }
 
 .why-img {
-  margin-top: 80px;
+  margin-top: 5rem;
   display: flex;
   justify-content: center;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
 }
 
 .why-img img{
@@ -494,14 +494,14 @@ margin: auto;
 
 .why-play-button {
   display: flex;
-  width: 50px;
-  height: 50px;
+  width: var(--size-50);
+  height: var(--size-50);
   background-color: var(--white);
   border-radius: 50%;
   position: absolute;
-  margin-top: 218px;
+  margin-top: 13.625rem;
   z-index: 5;
-  box-shadow: 1px 2px 20px rgb(31 73 125 / 20%);
+  box-shadow: 0.0625rem 0.125rem var(--size-20) rgb(31 73 125 / 20%);
   transition: ease-in .3s;
 }
 
@@ -514,46 +514,180 @@ margin: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 120px;
+  margin-top: 7.5rem;
 }
 
 .hubspot-img {
-  margin-left: 160px;
-  padding-bottom: 20px;
-  padding-left: 20px;
+  margin-left: 10rem;
+  padding-bottom: var(--size-20);
+  padding-left: var(--size-20);
   border-left-style: dotted;
   border-bottom-style: dotted;
-  border-width: 3.5px;
+  border-width: 0.21875rem;
   border-color: rgb(131, 128, 128);
 }
 
 .hubspot-section .bussiness-woman {
-  width: 400px;
-  margin-right: 80px;
-  padding-left: 20px;
-  padding-bottom: 20px;
+  width: 25rem;
+  margin-right: 5rem;
+  padding-left: var(--size-20);
+  padding-bottom: var(--size-20);
   border-left-style: dotted;
-  border-width: 2px;
+  border-width: 0.125rem;
   border-color: rgb(131, 128, 128);
   border-bottom-style: dotted;
   border-width: 
 }
 
 .hubspot-info span {
-  line-height: 30px;
+  line-height: var(--size-30);
 }
 
 .hubspot-info img {
-  width: 100px;
-  margin-bottom: 40px;
+  width: var(--size-100);
+  margin-bottom: var(--size-40);
 }
 
 .hubspot-info h4 {
-  margin-top: 30px;
-  margin-bottom: -1px;
+  margin-top: var(--size-30);
+  margin-bottom: -0.0625rem;
 }
 
 .hubspot-info p {
-  font-size: 10px;
+  font-size: var(--size-10);
   color: var(--font-light)
+}
+
+.worlds-best {
+  margin: auto;
+  margin-top: var(--size-150);
+  width: 100%;
+}
+
+.worlds-best h3 {
+  color: var(--font-light);
+  text-align: center;
+  font-size: 0.9375rem;
+  margin-bottom: var(--size-50);
+}
+
+.best-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75rem;
+  margin: auto;
+}
+
+.best-logos img {
+  width: var(--size-100);
+}
+
+/* PRICING SECTION */
+
+.pricing {
+  margin-top: var(--size-200);
+}
+
+.pricing-info {
+  text-align: center;
+  margin-bottom: var(--size-100);
+}
+
+.pricing-info h3 {
+  font-size: var(--size-40);
+  margin-bottom: var(--size-10);
+}
+
+.pricing-info span {
+  color: var(--font-light);
+}
+
+.pricing-card-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.big-pricing-card {
+  width: 21.875rem;
+  box-shadow: 0.0625rem 1.125rem var(--size-20) rgb(31 73 125 / 10%);
+  padding: var(--size-30);
+  margin-right: var(--size-30);
+  border-radius: 0.3125rem;
+  transition: ease-in-out .5s;
+}
+
+.big-pricing-card h2 {
+  font-size: var(--size-50);
+  margin-bottom: var(--size-16);
+}
+
+.big-pricing-card h2 span {
+  font-size: var(--size-16);
+  font-style: none;
+}
+
+.big-pricing-card hr {
+  opacity: 40%;
+  margin-bottom: var(--size-20);
+}
+
+.big-pricing-card p {
+  color: var(--font-light);
+}
+
+.pricing-btn {
+  width: 7.5rem;
+  padding-left: var(--size-10);
+  margin-top: var(--size-30);
+}
+
+.cc {
+  font-size: 0.75rem;
+}
+
+
+.pricing-benefits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+  width: 39.5rem;
+  height: 26rem;
+}
+
+.pricing-benefits div {
+  margin: var(--size-30);
+  transition: ease-in-out;
+}
+
+.components:hover {
+  cursor: pointer;
+  border-bottom: solid 1px rgb(72, 127, 247, 50%);
+}
+
+.img-included:hover {
+  cursor: pointer;
+  border-bottom: solid 1px rgb(72, 127, 247, 50%);
+} 
+
+.cancel:hover {
+  cursor: pointer;
+  border-bottom: solid 1px rgb(72, 127, 247, 50%);
+}
+
+.money-back:hover {
+  cursor: pointer;
+  border-bottom: solid 1px rgb(72, 127, 247, 50%);
+}
+
+.pricing-benefits p {
+  font-size: var(--size-14);
+  margin-top: -0.875rem;
+  color: var(--font-light);
+} 
+
+
+.pricing-benefits img {
+  width: var(--size-40);
 }

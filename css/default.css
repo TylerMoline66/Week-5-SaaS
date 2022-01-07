@@ -17,6 +17,7 @@
   --size-50: 3.125rem;
   --size-100: 6.25rem;
   --size-150: 9.375rem;
+  --size-200: 12.5rem;
 
 }
 
@@ -81,7 +82,7 @@ header {
     linear-gradient(to top left,transparent 50%,#fff 51%),
     linear-gradient(to bottom right,transparent 50%,#fff 51%);
     background-position: 2000px 0,100% 100%;
-    background-size:100% 150px; /* Change the 40px to control the angle*/
+    background-size:100% 150px;
     background-repeat:no-repeat;
   
 }
