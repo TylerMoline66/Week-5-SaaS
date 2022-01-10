@@ -38,6 +38,7 @@
   padding-left: 0.3125rem;
   padding-right: 20.625rem;
   display: flex;
+
 }
 
 .navbar.sticky {
@@ -690,4 +691,148 @@ margin: auto;
 
 .pricing-benefits img {
   width: var(--size-40);
+}
+
+/* HIRE US SECTION */
+.hire-us {
+  margin: auto;
+  margin-top: var(--size-150);
+  width: 83.55rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-blue-background);
+}
+
+.hire-us-info {
+  color: var(--white);
+  width: 21.875rem;
+  margin: var(--size-40);
+}
+
+.hire-us-info h3 {
+  font-size: var(--size-40);
+  font-weight: lighter;
+  margin-bottom: var(--size-10);
+}
+
+.hire-us-info hr {
+  float: left;
+  width: 50%;
+  margin-right: 50%;
+  opacity: 50%;
+  margin-top: var(--size-30);
+  margin-bottom: var(--size-30);
+}
+
+.hire-us-info span {
+  margin-top: var(--size-30);
+  margin-bottom: var(--size-30);
+  font-weight: lighter;
+  font-size: var(--size-14);
+}
+
+.hr-final-span {
+  font-size: var(--size-10);
+}
+
+.hire-us-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: var(--size-200);
+  margin-top: var(--size-40);
+}
+
+.hire-us-icons img {
+  width: var(--size-50);
+  border-radius: 50%;
+  transition: ease-in-out .25s;
+}
+
+.hire-us-icons img:hover {
+  transform: scale(1.25);
+}
+
+.hire-us-form {
+  width: 25rem;
+  padding: var(--size-30);
+  background-color: var(--white);
+  border-radius: 0.3125rem;
+  margin-top: var(--size-40);
+  margin-bottom: var(--size-40);
+}
+
+form {
+  text-align: center;
+}
+
+#firstName,
+#lastName,
+#workEmail,
+#companyWebsite,
+.hire-us-form select {
+  font-family: 'Noto Sans', sans-serif;
+  width: 43%;
+  padding: var(--size-10);
+  margin: var(--size-10);
+  border: 1px solid rgb(118, 118, 118, .6);
+  border-radius: 0.3125rem;
+}
+
+textarea {
+  border: 1px solid rgb(118, 118, 118, .6);
+  border-radius: 0.3125rem;
+  font-family: 'Noto Sans', sans-serif;
+  color: rgb(118, 118, 118, .6);
+  text-align: left;
+  margin-top: var(--size-10);
+  margin-bottom: var(--size-10);
+}
+
+.hire-us-form form label {
+  color: rgb(118, 118, 118, .6);
+  font-size: var(--size-14);
+  text-align: left; 
+}
+
+#getStarted {
+  width: 100%;
+  border-radius: 0.3125rem;
+  margin-top: var(--size-10);
+}
+
+/* FOOTER  */
+
+footer {
+  margin: auto;
+  margin-top: var(--size-200);
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  width: 80rem;
+}
+
+footer img {
+  width: var(--size-200);
+}
+
+footer a,
+footer i,
+footer span {
+  color: var(--font-light);
+}
+
+.company-list a span {
+  background-color: var(--main-blue);
+  color: var(--white);
+  font-size: var(--size-10);
+  padding-left: 0.3125rem;
+  padding-right: 0.3125rem;
+  border-radius: 0.3125rem;
+}
+
+.front-logo-info div,
+.resources-list div {
+  margin-top: var(--size-16);
 }
