@@ -40,6 +40,7 @@ a {
 body {
   background-color: var(--white);
   font-family: 'Noto Sans', sans-serif;
+  width: 100%;
 }
 
 .container {

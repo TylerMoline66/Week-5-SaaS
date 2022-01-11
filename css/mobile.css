@@ -23,3 +23,246 @@
   color: #666;
 }
 }
+
+@media screen and (max-width: 1024px) {
+
+  body {width: 100%;}
+
+  header {margin-left: 20%}
+
+  .masthead {padding-right: 11.625rem;}
+
+  .main-header {
+    padding-right: 10.9375rem;
+    padding-left: var(--size-200);
+    margin: auto;
+  }
+
+  .main-header-info h1 {font-size: 2.5rem;}
+
+  .google {
+    top: 16%;
+    right: 32%;
+  }
+  .blue-a {
+    top: 14%;
+    right: 18%;
+  }
+  .asana {
+    top: 18%;
+    right: 3%;
+  }
+  .pay-pal {
+    top: 35%;
+    right: 31%;
+  }
+  .weave {
+    top: 30%;
+    right: 14%;
+  }
+  .google-ads {
+    top: 46%;
+    right: 23%;
+  }
+  .calendar {
+    top: 40%;
+    right: 3%;
+  }
+  
+
+  .benefit-cards {width: 100%;}
+
+  .why-dot-words span {font-size: var(--size-10);}
+
+  .dot-one {left: 29%;}
+  .dot-two {left: 41%;}
+  .dot-three {left: 52%;}
+  .dot-four {left: 66%;}
+
+  .why-play-button {margin-top: 10%;}
+
+  .best-logos {width: 90%;}
+
+  .hire-us {width: 90%;}
+
+  footer {width: 90%;}
+}
+
+@media screen and (max-width: 768px) {
+  
+  header {margin-left: 5%;}
+
+  .navbar-brand img {margin-left: 100%;}
+
+  .masthead {padding-right: 3.625rem;}
+  
+  .benefit-cards {
+    width: 75%;
+    flex-wrap: wrap;
+  }
+  
+  .benefit-card {max-width: 245px;}
+
+  .different-section {width: 96%;}
+
+  .dot-three {left: 51%;}
+
+  .hubspot-section .bussiness-woman {width: 18rem;}
+
+  .hubspot-img img {margin-top: 6.5rem;}
+
+  .pricing-benefits {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13.75rem, 1fr));
+    width: 40.5rem;
+    height: 32rem;
+  }
+
+  .hire-us {flex-direction: column;}
+
+  footer {
+    width: 60%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .front-logo-info,
+  .company-list,
+  .features-list,
+  .documentation-list,
+  .resources-list {margin: 20px;}
+
+}
+
+@media screen and (max-width: 425px) {
+
+  body {
+    width: 100%;
+  }
+
+  header {
+    margin-left: 0;
+    width: 109%;
+    height: 1000px;
+  }
+
+  .first-btn {margin-right: 20px;}
+
+  .navbar.sticky {margin-right: -2.625rem;}
+
+  .main-header {
+    padding-right: var(--size-10);
+    padding-left: var(--size-20);
+  }
+
+  .masthead {padding-right: 0.625rem;}
+
+  .google {
+    top: 60%;
+    right: 69%;
+  }
+  .blue-a {
+    top: 54%;
+    right: 30%;
+  }
+  .asana {
+    top: 64%;
+    right: 2%;
+  }
+  .pay-pal {
+    top: 81%;
+    right: 55%;
+  }
+  .weave {
+    top: 79%;
+    right: -10%;
+  }
+  .google-ads {display: none;}
+  .calendar {display: none;}
+
+  .benefits {
+    margin-top: 10.75rem;
+    margin-left: 5%;
+  }
+
+  .benefits h2,
+  .benefits span {
+    text-align: center;
+    margin-left: -8%;
+  } 
+
+  .benefit-card {max-width: 400px;}
+
+  .different-section {
+    height: 40rem;
+    margin-left: 5%;
+    flex-wrap: wrap;
+  }
+
+  .info {margin: auto;}
+
+  .get-started {
+    width: 16.81215rem;
+    font-size: var(--size-20);
+  }
+
+  .why-front {margin-left: 5%;}
+
+  .why-dots {margin-left: 5%;}
+
+  .why-dot-dots {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .why-dot {
+    width: var(--size-50);
+    height: var(--size-50);
+    margin-bottom: 20px;
+  }
+
+  .why-dot-words {
+    flex-direction: column;
+    margin-top: -323px;
+  }
+
+  hr {display: none;}
+
+  .why-dot-words span {
+    position: static;
+    margin: 19px 0px 19px -5px;
+    font-size: var(--size-20);
+  }
+
+  .why-img img {
+    width: 100%;
+  }
+
+  .why-play-button {margin-top: 15%;}
+
+  .hubspot-section {flex-direction: column;}
+
+  .hubspot-img {margin-right: 8.625rem;}
+
+  .hubspot-section .bussiness-woman {
+    margin-right: auto;
+    padding-left: auto;
+    margin-top: -360px;
+    margin-bottom: 50px;
+  }
+
+  .best-logos {
+    flex-direction: column;
+  }
+ 
+  .pricing {margin-left: 7%;}
+
+  .pricing-card-section {flex-wrap: wrap-reverse;}
+
+  .big-pricing-card {
+    margin-top: 300px;
+    margin-left: 5%;
+  }
+
+  .hire-us {width: 106%;}
+}
