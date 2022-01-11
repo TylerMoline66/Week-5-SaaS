@@ -1,28 +1,4 @@
-/* MASTHEAD */
-.masthead {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: var(--font-light);
-  padding-right: 20.625rem;
-  margin-bottom: 0.3125rem;
-}
-
-.mast-left i {
- padding-left: 1.5rem;
-}
-
-.fas {
-  margin-right: var(--size-14);
-  font-size: var(--size-10);
-}
-
-.fa-chevron-down {
-  margin-left: var(--size-10);  
-}
-
-
-   /* NAVBAR */
+ /* NAVBAR */
 .navbar {
   position: sticky;
   top: 0;
@@ -31,19 +7,22 @@
   z-index: 500;
   transition: ease-in-out .3s;
   padding: 1rem;
+  margin-top: 0.3125rem;
+  margin-bottom: -5.125rem;
 }
 
 .main-header {
   width: 100%;
-  padding-left: 0.3125rem;
+  padding-left: 20.625rem;
   padding-right: 20.625rem;
   display: flex;
-
 }
 
 .navbar.sticky {
   background: white;
   box-shadow: 0px 0px 20px rgba(48, 63, 100, 0.2);
+  margin-right: -0.625rem;
+  margin-left: -0.625rem;
 }
 
 .navbar.sticky .navbar-toggler span, 
@@ -102,10 +81,33 @@
   color: var(--main-blue);
 }
 
+/* MASTHEAD */
+.masthead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--font-light);
+  padding-right: 20.625rem;
+  margin-bottom: 0.3125rem;
+}
+
+.mast-left i {
+ padding-left: 1.5rem;
+}
+
+.fas {
+  margin-right: var(--size-14);
+  font-size: var(--size-10);
+}
+
+.fa-chevron-down {
+  margin-left: var(--size-10);  
+}
+
 /* MAIN HEADER */
 
 .main-info {
-  margin-top: 3.125rem;
+  margin-top: 7.125rem;
   display: flex;
   justify-content: space-between;
   z-index: 100;
@@ -142,7 +144,7 @@
 }
 
 .stupid-dots {
-  width: 800px;
+  width: 50rem;
   margin: 0rem 21.25rem 0rem 31.25rem;
 }
 .logo-dots-1,
@@ -470,7 +472,24 @@ margin: auto;
   margin: auto;
   width: 40%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.dot-one {
+  position: absolute;
+  left: 28%;
+}
+.dot-two {
+  position: absolute;
+  left: 41%;
+}
+.dot-three {
+  position: absolute;
+  left: 52%;
+}
+.dot-four {
+  position: absolute;
+  left: 67%;
 }
 
 .why-dot-words:nth-child(2) {
@@ -486,7 +505,7 @@ margin: auto;
 
 .why-img img{
  width: 55%;
- border-radius: 5px;
+ border-radius: 0.3125rem;
 }
 
 .fa-play {
@@ -519,13 +538,25 @@ margin: auto;
 }
 
 .hubspot-img {
-  margin-left: 10rem;
+  margin-right: -8.375rem;
+}
+
+.hubspot-img img {
+  /* margin-left: 10rem; */
   padding-bottom: var(--size-20);
   padding-left: var(--size-20);
+  height: 17.5rem;
+  margin-top: 17.5rem;
+  margin-right: var(--size-10);
+  z-index: 1;
+}
+
+.hubspot-div-2 {
+  height: 11.875rem;
   border-left-style: dotted;
-  border-bottom-style: dotted;
-  border-width: 0.21875rem;
+  border-width: 0.125rem;
   border-color: rgb(131, 128, 128);
+  border-bottom-style: dotted;
 }
 
 .hubspot-section .bussiness-woman {
@@ -533,11 +564,7 @@ margin: auto;
   margin-right: 5rem;
   padding-left: var(--size-20);
   padding-bottom: var(--size-20);
-  border-left-style: dotted;
-  border-width: 0.125rem;
-  border-color: rgb(131, 128, 128);
-  border-bottom-style: dotted;
-  border-width: 
+  z-index: 5;
 }
 
 .hubspot-info span {
@@ -807,6 +834,7 @@ textarea {
 footer {
   margin: auto;
   margin-top: var(--size-200);
+  margin-bottom: var(--size-200);
   display: flex;
   align-items: top;
   justify-content: space-between;
